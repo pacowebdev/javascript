@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="box">
+        <ul>
+            <li>Home</li>
+            <li>Contacts</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="mousemove"></div>
+    <div class="keypress box">
+        <h2>Vous appuyez sur la touche : <span id="key"></span></h2>
+        <p>'@' pour jouer un son !</p>
+    </div>
+    <form class="box">
+        <label>
+            <input type="text" placeholder="Entrer votre nom">
+        </label>
+        <label>
+            <select>
+                <option>Select ton language favoris</option>
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="Javascript">Javascript</option>
+                <option value="php">php</option>
+            </select>
+        </label>
+        <input type="checkbox" id="cgv">
+        <label for="cgv">Accepter les cgv</label>
+        <input type="submit">
+    </form>
+    <div class="result"></div>
+
+</body>
+</html>
